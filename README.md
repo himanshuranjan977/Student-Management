@@ -1,6 +1,6 @@
-# Portfolio-Website
+# Student Management
 
-Portfolio website built in Html and Css
+Student Management website built in Html and Css
 
 
 This was a website built to showcase my technical skills, web design skills.
