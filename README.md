@@ -26,4 +26,5 @@ Build a Responsive website in a weak to showcase the following:
 * **Student Management**
 * **Home Page**
 ![Game](src/01.png)
+* **Student Information**
 ![Game](src/02.png)
