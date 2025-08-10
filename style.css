@@ -1,0 +1,115 @@
+html {
+  height: 100vh;
+  margin: 2px;
+  overflow: hidden;           
+  box-sizing: border-box;
+  background-color: white; /* Fill the viewport vertically */
+}
+
+body {
+  height: 90%;
+  background-color: #f5b97a;
+  font-family: Arial, sans-serif;
+  
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5b97a;
+  padding: 10px 50px;
+  border-bottom: 15px solid #edeaea; /* ✅ Bottom border only */
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #0e0e0e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-content {
+  padding: 60px;
+  text-align: center;
+}
+
+.main-content h1 {
+  font-size: 2.5em;
+  color: #003366;
+  
+}
+
+.profile-container {
+  padding: 40px;
+  text-align: center;
+  
+    
+}
+
+.profile-card {
+  background-color: white;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.profile-card p {
+  font-size: 18px;
+  text-align: left;
+}
+
+.student-image {
+  width: 220px;
+  height: 150px;
+  border: 1px solid #000;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: white;
+  margin: 0 auto 50px auto; /* Centers image horizontally, adds space below */
+  position: relative;
+  left: -600px; /* Slightly moves image to the left */
+}
+
+.student-info {
+  font-size: 16px;
+    position: relative;
+  right: -350px; 
+   /* Centers text under the image */
+}
+
+/* ✅ Outer container padding */
+.outer-container {
+  padding: 40px;
+
+}
+
+/* ✅ Profile section stacked layout */
+.profile-section {
+  display: flex;
+  flex-direction: column; /* Image on top, info below */
+  background-color: #f5b97a;
+  
+  
+  
+}
+
